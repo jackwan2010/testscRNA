@@ -291,7 +291,8 @@ wMetaC <- function(nC){
 #     spl <- split(d, v[, i-2])
 #     wss[i-2] <- sum(sapply(spl, wss))#within-cluster sum of squares
 #     print("OK")
-#     CHind[i] = get_CH(S, v[, i], disMethod = "1-corr")
+#     CHind[i] = 
+	  (S, v[, i], disMethod = "1-corr")
 #     print(CHind[i])
   }
 
@@ -366,6 +367,8 @@ wMetaC <- function(nC){
 #' rowColor= getrowColor(E1, tag, colorL)
 #'
 #' @import cluster
+#'
+#' @import clues
 #'
 #' @export
 # getrowColor <- function(E, tag, outdir, colorL){#hierarchical clustering
