@@ -1,0 +1,11 @@
+Package: testscRNA
+Title: single-cell RNA-Seq data clustering
+Version: 0.0.0.9000
+Author: Shibiao Wan
+Authors@R: person("Shibiao", "Wan", email = "shibiaowan.work@gmail.com", role = c("aut", "cre"))
+Description: SHARP: Single-Cell RNA-Seq Hyper-Fast and Accurate Clustering via Ensemble Random Projection
+Depends: R (>= 3.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
