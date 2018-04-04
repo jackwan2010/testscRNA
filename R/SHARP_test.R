@@ -291,8 +291,7 @@ wMetaC <- function(nC){
 #     spl <- split(d, v[, i-2])
 #     wss[i-2] <- sum(sapply(spl, wss))#within-cluster sum of squares
 #     print("OK")
-#     CHind[i] = 
-	  (S, v[, i], disMethod = "1-corr")
+#     CHind[i] = (S, v[, i], disMethod = "1-corr")
 #     print(CHind[i])
   }
 
