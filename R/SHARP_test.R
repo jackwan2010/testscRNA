@@ -161,6 +161,8 @@ getss<- function(pind, R, x, w1){#This is to get the element of S
 #'
 #' @import cluster
 #'
+#' @import clues
+#'
 #' @export
 wMetaC <- function(nC){
   #This is to obtain the weight matrix for each cluster solution for following meta-clustering
